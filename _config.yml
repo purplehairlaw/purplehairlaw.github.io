@@ -20,10 +20,10 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "Law"
+              value: "law"
+            - name: "Travel"
+              value: "travel"
     _posts/static:
       - name: "layout"
         field:
