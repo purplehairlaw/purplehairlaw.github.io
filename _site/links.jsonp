@@ -1,6 +1,11 @@
 callback([
 
   {
+    "text": "Resume",
+    "href": "/resume/"
+  } ,
+
+  {
     "text": "Aboot",
     "href": "/about/"
   } ,

@@ -16,24 +16,22 @@ title: 'This is my Site Title'
 <body>
  
   <div class="wrapper">
-    <div class="navigation u-full-width">
       <div class="container nav-bar">
-
-        <h1 class='logo'><a href='{{site.baseurl}}/'><img src="{{site.baseurl}}/img/lawyer_purple_hair_small.png"</a></h1>
-        <div class="nav-links u-pull-right">
-          <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-          <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-          <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/resume'>Resume</a>
+        <div class="row">
+          <div class="twelve columns">
+            <a class="" href='{{site.baseurl}}/'><img src="{{site.baseurl}}/img/lawyer_purple_hair_small.png"></a>
+          </div>
         </div>
-
+        <div class="row">
+          <div class="twelve columns">
+            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a> | <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a> | <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/resume'>Resume</a>
+          </div>
+        </div>
       </div>
-         
-    </div>
+  
  
     <div class="container page-content">
-
           {{content}}
-
     </div>
 
 
