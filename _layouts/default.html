@@ -14,20 +14,31 @@ title: 'This is my Site Title'
   <link href='{{site.baseurl}}/custom.css' rel='stylesheet' />
 </head>
 <body>
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
+ 
+  <div class="wrapper">
+    <div class="navigation u-full-width">
+      <div class="container nav-bar">
+
+        <h1 class='logo'><a href='{{site.baseurl}}/'><img src="{{site.baseurl}}/img/lawyer_purple_hair_small.png"</a></h1>
+        <div class="nav-links u-pull-right">
+          <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
+          <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+          <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/resume'>Resume</a>
         </div>
+
       </div>
+         
     </div>
-    {{content}}
+ 
+    <div class="container page-content">
+
+          {{content}}
+
+    </div>
+
+
   </div>
+
   <script src='{{site.baseurl}}/site.js'></script>
+
 </body>
