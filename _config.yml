@@ -1,10 +1,10 @@
-baseurl: http://purplehairlaw.github.io/
+baseurl: /starter
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://purplehairlaw.github.io'
-  relativeLinks: 'http://purplehairlaw.github.io'
+  siteurl: 'http://prose.github.io/starter/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
     _posts:
