@@ -172,7 +172,7 @@ module.exports = function (grunt) {
 
         buildcontrol: {
             options: {
-                dir: '_site',
+                dir: 'jekyllbuild',
                 commit: true,
                 push: true,
                 message: 'Built jekyllbuild from commit %sourceCommit% on branch %sourceBranch%'
