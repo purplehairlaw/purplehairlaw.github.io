@@ -172,15 +172,15 @@ module.exports = function (grunt) {
 
         buildcontrol: {
             options: {
-                dir: 'jekyllbuild',
+                dir: '_site',
                 commit: true,
                 push: true,
                 message: 'Built jekyllbuild from commit %sourceCommit% on branch %sourceBranch%'
             },
             pages: {
                 options: {
-                    remote: 'git@github.com:DigitalMindCH/gridster-jekyll-theme.git', // change that
-                    branch: 'gh-pages' // adjust here
+                    remote: 'https://github.com/purplehairlaw/purplehairlaw.github.io.git', // change that
+                    branch: 'master' // adjust here
                 }
             }
         },
