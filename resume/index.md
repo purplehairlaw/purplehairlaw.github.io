@@ -31,7 +31,7 @@ Co-Author of West’s Florida Practice Series treatise on Florida Motor Vehicle 
 
 ###### Kennesaw State University, Kennesaw, GA | B.A. International Affairs with Honors | 2002 
 
-#### SKILLS/INTERESTS
+#### SKILLS + INTERESTS
 
 ###### Language: Fluent in English & Spanish
 
